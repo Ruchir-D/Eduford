@@ -6,11 +6,11 @@ const navLinks = document.querySelector('.nav-links');
 
 
 menu.addEventListener('click', ()=>{
-    navLinks.style.right = '0px';
+    navLinks.style.right = '0%';
 });
 
 cross.addEventListener('click', ()=>{
-    navLinks.style.right = '-200px';
+    navLinks.style.right = '-200%';
     console.log('clicked');
 });
 
